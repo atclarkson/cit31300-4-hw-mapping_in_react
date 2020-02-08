@@ -51,7 +51,7 @@ function App() {
             "bonus": "Free Room Upgrade"
         },
         {
-            "name": "The Bahamas From Port Canaveral",
+            "name": "The Bahamas",
             "numNights": 4,
             "ship": "Carnival Liberty",
             "destinations": [
@@ -64,7 +64,7 @@ function App() {
             "bonus": "Free Dinner"
         },
         {
-            "name": "Panama Canal from Galveston, TX",
+            "name": "Panama Canal",
             "numNights": 9,
             "ship": "Carnival Radiance",
             "destinations": [

@@ -5,15 +5,68 @@
     align-content: flex-start;
 }
 
+.card-image {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
 .cruise-card {
     border: black 1px solid;
     border-radius: 5px;
     width: 400px;
-    min-height: 300px;
+    min-height: 250px;
     margin: 5px;
+    padding: 0;
 }
 
 .cruise-card img {
     width: 400px;
     max-height: 200px;
+}
+
+.cruise-card h2 {
+    margin: 0;
+    padding: 12px;
+    background-color: rgba(255,255,255,.75);
+}
+
+.cruise-card h3,
+.cruise-card h4 {
+    margin: 0;
+    padding: 0 0 4px 0;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+
+.cruise-card h2,
+.cruise-card h3,
+.cruise-card h4 {
+    padding-left: 4px;
+}
+
+.port-o-call {
+    padding: 10px 4px 0;
+    font-size: 1em;
+    margin: 0;
+}
+
+.my-button {
+    margin: 0 10px;
+    width: 200px;
+    padding: 10px 15px;
+    border: black solid 2px;
+    font-size: 1rem;
+    transition: 250ms;
+
+}
+
+.my-button:hover {
+    background-color: black;
+    color: white;
 }

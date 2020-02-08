@@ -12,18 +12,23 @@ function Cruise(props) {
         setShowBonus(props.bonus);
     }
 
-
+    const imgStyle = {
+        backgroundImage: `url(${props.bannerImg})`
+    }
     return (
             <div className="cruise-card">
-                <img src={props.bannerImg} alt={props.name}/>
-                <h2>{props.name}</h2>
-                <h3>{props.numNights} Nights</h3>
-                <h4>Ship: {props.ship}</h4>
-                <h5>Ports of Call</h5>
-                <ul>
+                <div className="card-image" style={imgStyle}>
+                    <h2>{props.name}</h2>
+                    <div><h3>{props.numNights} Nights</h3>
+                        <h4>Ship: {props.ship}</h4></div>
+
+                </div>
+
+                <h5 className="port-o-call">Ports of Call</h5>
+                <ul className="port-list">
                     {mappedDest}
                 </ul>
-                <button onClick={toggleBonus}>Free Bonus!</button>
+                <button className="my-button" onClick={toggleBonus}>Free Bonus!</button>
                 <h2>{showBonus}</h2>
             </div>
     )
