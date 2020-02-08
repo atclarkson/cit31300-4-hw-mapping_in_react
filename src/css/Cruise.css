@@ -1,0 +1,19 @@
+.cruise-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.cruise-card {
+    border: black 1px solid;
+    border-radius: 5px;
+    width: 400px;
+    min-height: 300px;
+    margin: 5px;
+}
+
+.cruise-card img {
+    width: 400px;
+    max-height: 200px;
+}
