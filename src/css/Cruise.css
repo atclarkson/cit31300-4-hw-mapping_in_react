@@ -70,3 +70,44 @@
     background-color: black;
     color: white;
 }
+
+
+
+.port-list li::before {
+    font-family: "Font Awesome 5 Pro", serif;
+    font-weight: 100;
+    padding: 1px 5px;
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+    content: "\f192";
+}
+
+.port-list li:first-child::before {
+    content: "\f3c5";
+}
+
+.port-list li:last-child::before {
+    content: "\f3c5";
+}
+
+.numberCircle {
+    display:inline-block;
+    line-height:0px;
+
+    border-radius:50%;
+    border:2px solid;
+
+    font-size:32px;
+    float: right;
+}
+
+.numberCircle span {
+    display:inline-block;
+
+    padding-top:50%;
+    padding-bottom:50%;
+
+    margin-left:8px;
+    margin-right:8px;
+}

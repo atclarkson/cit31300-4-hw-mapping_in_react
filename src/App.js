@@ -30,7 +30,7 @@ function App() {
             moves:
                 ["Edokuken", "Tiger Fury", "Wind Kick"]
         }
-    ])
+    ]);
 
     const [cruiseArray] = React.useState([
         {
@@ -76,8 +76,8 @@ function App() {
             "price": 719,
             "bannerImg": "https://images.unsplash.com/photo-1560424729-e7519277b60d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80",
             "bonus": "Free Pirate Attack"
-        },
-    ])
+        }
+    ]);
 
     let elements = charArr.map((it, idx) =>
         <Character key={idx} name={it.name} power={it.power} color={it.color} age={it.age} moves={it.moves}/>
@@ -94,7 +94,7 @@ function App() {
             {elements}
             <h2>Wanna book a cruise?</h2>
             <div className="cruise-cards">
-            {cruiseEl}
+                {cruiseEl}
             </div>
         </div>
     );
