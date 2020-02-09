@@ -16,21 +16,27 @@ function Cruise(props) {
         backgroundImage: `url(${props.bannerImg})`
     }
     return (
-            <div className="cruise-card">
-                <div className="card-image" style={imgStyle}>
-                    <h2>{props.name}<span className="numberCircle"><span>{props.numNights}</span></span></h2>
-                    <div>
-                        <h4>Ship: {props.ship}</h4></div>
+        <div className="cruise-card">
 
+                <div className="num-nights">
+                    <div className="num-nights-num">{props.numNights}</div>
+                    <div className="num-nights-nights">Days</div>
                 </div>
-
-                <h5 className="port-o-call">Ports of Call</h5>
-                <ul className="port-list fa-ul">
-                    {mappedDest}
-                </ul>
-                <button className="my-button" onClick={toggleBonus}>Free Bonus!</button>
+            <div className="card-image" style={imgStyle}>
+                <h2>{props.name}</h2>
+                <div>
+                    <h4>Ship: {props.ship}</h4></div>
+            </div>
+            <h5 className="port-o-call">Ports of Call</h5>
+            <ul className="port-list fa-ul">
+                {mappedDest}
+            </ul>
+            <div className="bonus">
+                <button className="my-button" onClick={toggleBonus}><i className="fad fa-gifts"></i> Free Bonus!
+                </button>
                 <h2>{showBonus}</h2>
             </div>
+        </div>
     )
 
 }

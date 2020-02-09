@@ -16,12 +16,17 @@
 }
 
 .cruise-card {
-    border: black 1px solid;
-    border-radius: 5px;
+    border: grey 1px solid;
+    border-radius: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     width: 400px;
     min-height: 250px;
-    margin: 5px;
+    margin: 15px;
     padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+
 }
 
 .cruise-card img {
@@ -35,8 +40,15 @@
     background-color: rgba(255,255,255,.75);
 }
 
-.cruise-card h3,
 .cruise-card h4 {
+    background-color: darkred;
+    color: white;
+    width: 45%;
+    padding: 8px;
+    margin: 0;
+}
+
+.cruise-card h3{
     margin: 0;
     padding: 0 0 4px 0;
     color: white;
@@ -57,13 +69,11 @@
 }
 
 .my-button {
-    margin: 0 10px;
     width: 200px;
     padding: 10px 15px;
     border: black solid 2px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: 250ms;
-
 }
 
 .my-button:hover {
@@ -91,23 +101,37 @@
     content: "\f3c5";
 }
 
-.numberCircle {
-    display:inline-block;
-    line-height:0px;
-
-    border-radius:50%;
-    border:2px solid;
-
-    font-size:32px;
-    float: right;
+.bonus {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.numberCircle span {
-    display:inline-block;
+.num-nights {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 1;
+    background-color: darkred;
+    width: 55px;
+    height: 55px;
+    padding: 12.5px 0;
+    border-radius: 100%;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'proxima-nova-soft', sans-serif;
+}
 
-    padding-top:50%;
-    padding-bottom:50%;
+.num-nights-num {
+    line-height: 20px;
+    font-size: 30px;
+}
 
-    margin-left:8px;
-    margin-right:8px;
+.num-nights-nights {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 18px;
 }

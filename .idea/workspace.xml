@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="903eff0c-6773-46df-aa41-ae4f6f2aaefb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cruise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cruise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cruise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Cruise.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Cruise.css" afterDir="false" />
     </list>
@@ -74,37 +68,53 @@
       <option name="presentableId" value="Default" />
       <updated>1581117388127</updated>
       <workItem from="1581117391675" duration="7761000" />
-      <workItem from="1581266475155" duration="2725000" />
+      <workItem from="1581266475155" duration="7557000" />
     </task>
+    <task id="LOCAL-00001" summary="tweeked number of nights display and port icons">
+      <created>1581269251336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581269251336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tweeked number of nights display and port icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweeked number of nights display and port icons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="880" y="385" key="#Configure_Path_Variables" timestamp="1581266502153">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="880" y="385" key="#Configure_Path_Variables/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581266502153" />
-    <state width="2539" height="423" key="GridCell.Tab.0.bottom" timestamp="1581267337802">
+    <state x="732" y="322" key="CommitChangelistDialog2" timestamp="1581269251057">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581267337802" />
+    <state x="732" y="322" key="CommitChangelistDialog2/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581269251057" />
+    <state width="2539" height="423" key="GridCell.Tab.0.bottom" timestamp="1581279924175">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581279924175" />
     <state width="2539" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1920.859.1920.1057/2560.1047.1920.1177@0.0.2560.1440" timestamp="1581265560171" />
-    <state width="2539" height="423" key="GridCell.Tab.0.center" timestamp="1581267337799">
+    <state width="2539" height="423" key="GridCell.Tab.0.center" timestamp="1581279924168">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="423" key="GridCell.Tab.0.center/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581267337799" />
+    <state width="2539" height="423" key="GridCell.Tab.0.center/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581279924168" />
     <state width="2539" height="423" key="GridCell.Tab.0.center/0.0.2560.1440/-1920.859.1920.1057/2560.1047.1920.1177@0.0.2560.1440" timestamp="1581265560168" />
-    <state width="2539" height="423" key="GridCell.Tab.0.left" timestamp="1581267337798">
+    <state width="2539" height="423" key="GridCell.Tab.0.left" timestamp="1581279924167">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="423" key="GridCell.Tab.0.left/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581267337798" />
+    <state width="2539" height="423" key="GridCell.Tab.0.left/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581279924167" />
     <state width="2539" height="423" key="GridCell.Tab.0.left/0.0.2560.1440/-1920.859.1920.1057/2560.1047.1920.1177@0.0.2560.1440" timestamp="1581265560167" />
-    <state width="2539" height="423" key="GridCell.Tab.0.right" timestamp="1581267337801">
+    <state width="2539" height="423" key="GridCell.Tab.0.right" timestamp="1581279924172">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="423" key="GridCell.Tab.0.right/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581267337801" />
+    <state width="2539" height="423" key="GridCell.Tab.0.right/0.0.2560.1440/-1920.836.1920.1080/2560.1024.1920.1200@0.0.2560.1440" timestamp="1581279924172" />
     <state width="2539" height="423" key="GridCell.Tab.0.right/0.0.2560.1440/-1920.859.1920.1057/2560.1047.1920.1177@0.0.2560.1440" timestamp="1581265560169" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1581268327105">
       <screen x="0" y="0" width="2560" height="1440" />
