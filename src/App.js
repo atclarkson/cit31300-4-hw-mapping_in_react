@@ -76,6 +76,20 @@ function App() {
             "price": 719,
             "bannerImg": "https://images.unsplash.com/photo-1560424729-e7519277b60d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80",
             "bonus": "Free Pirate Attack"
+        },
+        {
+            "name": "Baja Mexico",
+            "numNights": 4,
+            "ship": "Carnival Imagination",
+            "destinations": [
+                "Long Beach",
+                "Catalina Island",
+                "Ensenada",
+                "Long Beach"
+            ],
+            "price": 129,
+            "bannerImg": "https://images.unsplash.com/photo-1416163255873-f17745e8f851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80",
+            "bonus": "Free Time!"
         }
     ]);
 

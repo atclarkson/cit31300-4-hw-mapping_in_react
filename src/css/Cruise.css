@@ -43,7 +43,7 @@
 .cruise-card h4 {
     background-color: darkred;
     color: white;
-    width: 45%;
+    width: 50%;
     padding: 8px;
     margin: 0;
 }
@@ -69,15 +69,19 @@
 }
 
 .my-button {
-    width: 200px;
+    width: 250px;
     padding: 10px 15px;
-    border: black solid 2px;
+    border: darkred solid 3px;
+    font-weight: 700;
+    border-radius: 1px;
     font-size: 1.5rem;
     transition: 250ms;
+    color: darkred;
+    text-transform: uppercase;
 }
 
 .my-button:hover {
-    background-color: black;
+    background-color: darkred;
     color: white;
 }
 
