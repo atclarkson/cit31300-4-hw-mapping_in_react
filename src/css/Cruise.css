@@ -41,7 +41,8 @@
 }
 
 .cruise-card h4 {
-    background-color: darkred;
+    background-image: linear-gradient(135deg, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    background-color: #B465DA;
     color: white;
     width: 50%;
     padding: 8px;
@@ -71,17 +72,18 @@
 .my-button {
     width: 250px;
     padding: 10px 15px;
-    border: darkred solid 3px;
+    border: #B465DA solid 3px;
     font-weight: 700;
     border-radius: 1px;
     font-size: 1.5rem;
     transition: 250ms;
-    color: darkred;
+    color: #B465DA;
     text-transform: uppercase;
 }
 
 .my-button:hover {
-    background-color: darkred;
+    background-image: linear-gradient(135deg, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    background-color: #B465DA;
     color: white;
 }
 
@@ -117,7 +119,8 @@
     top: 10px;
     right: 15px;
     z-index: 1;
-    background-color: darkred;
+    background-image: linear-gradient(135deg, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    background-color: #B465DA;
     width: 55px;
     height: 55px;
     padding: 12.5px 0;
